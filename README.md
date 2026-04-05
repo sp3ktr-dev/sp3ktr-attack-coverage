@@ -1,4 +1,4 @@
-# Spektr ATT&CK Coverage Analyzer
+# Sp3ktr ATT&CK Coverage Analyzer
 
 A command-line tool that cross-references your Wazuh SIEM alert data against the full MITRE ATT&CK Enterprise framework to identify detection coverage and gaps.
 

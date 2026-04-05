@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Spektr ATT&CK Coverage Analyzer
+Sp3ktr ATT&CK Coverage Analyzer
 Adapted for Wazuh + ELK from original concept by @Antonlovesdnb
 Queries Elasticsearch for Wazuh alert MITRE mappings and cross-references
 against the full MITRE ATT&CK Enterprise framework.
@@ -149,7 +149,7 @@ def generate_report(covered, all_techniques, tactics, top_rules, days):
 
     report = []
     report.append("=" * 60)
-    report.append("SPEKTR SECURITY LAB — MITRE ATT&CK COVERAGE REPORT")
+    report.append("SP3KTR SECURITY LAB — MITRE ATT&CK COVERAGE REPORT")
     report.append(f"Generated: {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}")
     report.append(f"Lookback: {days} days")
     report.append("=" * 60)
